@@ -1,15 +1,15 @@
 > repository based on https://github.com/lacerdamarcelo/cec17_python/
 
 # CEC 2020 - Benchmark Functions (Bound Constrained) in Python
-Very simple Python wrapper function for the benchmark functions of the CEC 2020 Special Session and Competition on Single Objective Bound Constrained Real-Parameter Numerical Optimization, originally written in C.
+Very simple Python wrapper function for the benchmark functions of the CEC 2020 Special Session and Competition on Single Objective Bound Constrained Real-Parameter Numerical Optimization, originally written in CPP.
 
 ## Instructions
-First you have to compile the original file where the CEC20 functions are written in C. In my computer, running on a Ubuntu 18.04 and GCC 7.3.0, in the same directory as the .c file I enter the following command on terminal:
+First you have to compile the original file where the CEC20 functions are written in C. In my computer, running on a Ubuntu 20.04 and GCC 11.2.0, in the same directory as the .c file I enter the following command on terminal:
 ```
 gcc -fPIC -shared -lm -o cec20_test_func.so cec20_test_func.cpp
 ```
 
-This command is going to generate a file called cec20_test_func.so, which is going to be used by the wrapper function 'cec20_test_func' in the module 'cec17_functions'.
+This command is going to generate a file called cec20_test_func.so, which is going to be used by the wrapper function 'cec20_test_func' in the module 'cec20_functions'.
 
 Since there is no pip installation, you'll have to manually include these files on your project so that you would have access to them. After doing that, you might be able to call 'cec20_test_func' function and compute the fitness value of a given solution vector. Don't forget to also copy 'input_data' to your project's directory.
 
