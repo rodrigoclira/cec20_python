@@ -44,4 +44,5 @@ print(f[0])
 ```
 
 ## Original implementation (in C)
-N. H. Awad, M. Z. Ali, J. J. Liang, B. Y. Qu and P. N. Suganthan, "Problem Definitions and Evaluation Criteria for the CEC 2017 Special Session and Competition on Single Objective Bound Constrained Real-Parameter Numerical Optimization,"  Technical Report, Nanyang Technological University, Singapore, November 2016
+
+https://github.com/P-N-Suganthan/2020-Bound-Constrained-Opt-Benchmark
