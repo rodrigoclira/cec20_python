@@ -34,7 +34,7 @@ f = [0]
 
 This is how you call the function, just like in the original code in C (same order of the arguments): 
 ```python
-cec17_test_func(x, f, nx, mx, func_num)
+cec20_test_func(x, f, nx, mx, func_num)
 ```
 
 The result is stored in the vector 'f'. If mx==1, only the first element of ‘f’ is used. 
